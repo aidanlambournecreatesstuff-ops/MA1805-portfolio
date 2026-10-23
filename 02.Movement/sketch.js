@@ -22,6 +22,6 @@ function draw() {
   text(ant, random(0, cubeX), random(0, cubeY));  //creates ants to randomly move across the cube
 }
 if (sugarSize <5) {
-  ant = " ";  //if sugar size is 0, the ants will be gone
+  ant = " ";  //the ants will leave when the sugar is gone
 }
 }
