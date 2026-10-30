@@ -1,0 +1,2 @@
+# Multiples
+In Multiples, I have attempted to create the look of a lit Christmas tree. I used a mint green background to ape a pine Christmas tree, and set up a string of circles which constantly and randomly change colour, to mimic fairy lights. The use of an array has granted me an easy way to make the fairy lights descend upon the click of a mouse button. 

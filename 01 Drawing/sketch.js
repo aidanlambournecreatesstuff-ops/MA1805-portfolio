@@ -1,18 +1,12 @@
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(400, 400);      //canvas creation
 }
-
 function draw() {
   background(255);             //background
   stroke(0);                   //Lines - black
   fill(255,255,0);              //yellow
   strokeWeight(3);              //lines - thick
-  circle(200,200,300);          //head
-
-
-
-
-  
+  circle(200,200,300);          //head  
   fill(0,0,0);                  //black
   circle (100, 100, 50);        //left eye
   circle (300, 100, 50);        //right eye      
@@ -28,6 +22,4 @@ function draw() {
   fill (200, 0, 0);             //maroon
   strokeWeight(2);              //Lines - thinner tongue
   ellipse(200, 165, 100, 20);   //tongue  
-
 }
-
