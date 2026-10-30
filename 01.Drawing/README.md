@@ -1,5 +1,5 @@
 # Drawing
-In Drawing, I have created an emoji of a stara-struck face. Circles and ellipses were primarily used to construct the look, alongside modifying stroke weight and colour for more definition. The use of negaive space on the latter half of the emoji is purposeful, as it creates the impressionof looking up. 
+In Drawing, I have created an emoji of a star-struck face. Circles and ellipses were primarily used to construct the look, alongside modifying stroke weight and colour for more definition. The use of negaive space on the latter half of the emoji is purposeful, as it creates the impressionof looking up. 
 
 ## Author
 Aidan Lambourne wrote the code. 
