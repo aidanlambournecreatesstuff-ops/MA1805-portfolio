@@ -3,7 +3,7 @@ let meow;                                       //vairable to modify the audio a
 let angery = 0;                                 //variable to change the applied filter seamlessly
 
 function preload() {                            //preloading to reduce strain when loading in assets
-  img = loadImage('cat1.jpg');                  //default displayed image is the cluess cat man
+  img = loadImage('cat1.jpg');                  //default displayed image is the cluelss cat
   meow = loadSound("meow.wav");                 //makes the meow the current audio
 }
 function setup() {                              
