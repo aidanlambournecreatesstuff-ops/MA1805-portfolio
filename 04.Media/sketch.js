@@ -1,10 +1,10 @@
 let img;                                        //variable to easily change the displayed image
-let scream;                                     //vairable to modify the audio across functions
+let meow;                                       //vairable to modify the audio across functions
 let angery = 0;                                 //variable to change the applied filter seamlessly
 
 function preload() {                            //preloading to reduce strain when loading in assets
-  img = loadImage('frustrated-man.jpg');        //default displayed image is the frustrated man
-  scream = loadSound("scream.mp3");             //makes the scream the current audio
+  img = loadImage('cat1.jpg');                  //default displayed image is the cluess cat man
+  meow = loadSound("meow.wav");                 //makes the meow the current audio
 }
 function setup() {                              
   createCanvas(windowWidth, windowHeight);      //basic canvas set up
@@ -20,13 +20,13 @@ function draw() {
   }
 }
 function mousePressed() {                       //upon the press and hold of a mouse, do the following:
-  img = loadImage('screaming-man.jpg');         //changes the image to the screaming man
+  img = loadImage('cat2.jpg');                  //changes the image to the meowing cat
   angery ++;                                    //increases the angery variable to signal the filter change
-  scream.loop();                                //plays the scream on loop
-  scream.amp(0.2);                              //sets the volume of the scream
+  meow.loop();                                  //plays the meow on loop
+  meow.amp(0.2);                                //sets the volume of the meow
 }
 function mouseReleased () {                     //upon the release of the mouse click, do the following:
-  img = loadImage('frustrated-man.jpg');        //changes the image back to the frustrated man  
-  scream.stop()                                 //halts the scream audio
+  img = loadImage('cat1.jpg');                  //changes the image back to the clueless cat  
+  meow.stop()                                   //halts the meow audio
   angery --;                                    //signals the revertion to the default filter.
 }
